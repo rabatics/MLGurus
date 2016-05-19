@@ -1,0 +1,226 @@
+kc(default)
+[skillrule: eliminate parens; {clt nested; clt nested, parens; distribute mult right; distribute mult left; (+/-x +/-a)/b=c, mult; (+/-x +/-a)*b=c, div; [var expr]/[const expr] = [const expr], multiply; distribute division left; distribute division right; distribute both mult left; distribute both mult right; distribute both divide left; distribute both divide right; distribute subex}]
+[skillrule: remove constant; {ax+b=c, positive; ax+b=c, negative; x+a=b, positive; x+a=b, negative; [var expr]+[const expr]=[const expr], positive; [var expr]+[const expr]=[const expr], negative; [var expr]+[const expr]=[const expr], all; combine constants to right; combine constants to left; a-x=b, positive; a/x+b=c, positive; a/x+b=c, negative}]
+[skillrule: isolate positive; x+a=b, positive]
+[skillrule: remove coefficient; {ax+b=c, divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr], divide; [var expr]*[const expr] = [const expr], divide; a/b*x=c; a/b*x=c, reciprocal; ax/b=c, reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c, mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c, multiply; [var expr]/[const expr] = [const expr], multiply}]
+[skillrule: remove negative coefficient; {ax/b=c, reciprocal; ax/b=c; ax=b; x/a=b}]
+[skillrule: ax+b=c, negative; ax+b=c, negative]
+[skillrule: remove positive coefficient; {ax/b=c, reciprocal; ax/b=c; x/a=b; ax=b}]
+[skillrule: add/subtract; [typein skill: {isolate positive; isolate negative; remove constant; consolidate vars, no coeff; consolidate vars with coeff; consolidate vars, any}]]
+[skillrule: multiply/divide; [typein skill: {remove coefficient; variable in denominator}]]
+[skillrule: consolidate vars with coeff; clt]
+combine-like-terms-sp
+[skillrule: isolate negative; x+a=b, negative]
+[skillrule: calculate eliminate parens; [typein skill: eliminate parens]]
+
+simplify-fractions-sp
+[skillrule: consolidate vars, no coeff; clt]
+[skillrule: select combine terms; clt]
+distribute-sp
+[skillrule: variable in denominator; {a/x=[anything]; a/x=b; a/x=b, sophisticated}]
+[skillrule: extract to consolidate vars; {factor; factorb; factorc; factord}]
+[skillrule: done?; {doneleft; doneright; done no solution; done no solution, domain exception; done no solution, range exception; done infinite solutions}]
+factor-sp
+[skillrule: eliminate parens; {[var expr]/[const expr] = [const expr], multiply; [var expr]*[const expr] = [const expr], divide}]
+[skillrule: make variable positive; {ax+b=c, divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr], divide; [var expr]*[const expr] = [const expr], divide; a/b*x=c; a/b*x=c, reciprocal; ax/b=c, reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c, mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c, multiply; [var expr]/[const expr] = [const expr], multiply}]
+[skillrule: invert-mult; {ivm}]
+define variable
+identifying units
+using simple numbers
+write expression, positive slope
+using large numbers
+entering a given
+find x, positive slope
+convert unit, standard
+using small numbers
+using difficult numbers
+find y, any form
+find y, simple
+convert unit, multiplier
+find x, simple
+find y, positive slope
+[skillrule: consolidate vars, any; {combine variables to right, sub; combine variables to right, add; combine variables to right, gen; combine variables to right; combine variables to left, add; combine variables to left, sub; combine variables to left, gen; ax+b=cx; ax+b=cx, move left; ax+b=cx+d, pos; ax+b=cx+d, neg; ax+b=cx+d, move right; ax+b=cx+d, move two; ax+b=cx+d, move two2; x+b=cx+d, pos; x+b=cx+d, neg; x+b=cx+d, move right; x+b=cx+d, move two; x+b=cx+d, move two2; ax+b=x+d, pos; ax+b=x+d, neg; ax+b=x+d, move right; ax+b=x+d, move two; ax+b=x+d, move two2; x+b=x+d, pos; x+b=x+d, neg; x+b=x+d, move right; x+b=x+d, move two; x+b=x+d, move two2}]
+labelling the axes
+changing axis bounds
+changing axis intervals
+labelling point of intersection
+write expression, negative slope
+find y, negative slope
+find x, negative slope
+write expression, initial and point
+write expression, initial and change
+write expression, two points
+negative constant, sif
+entering x-intercept, sif
+entering y-intercept, sif
+placing coordinate point
+excluding the line when shading
+shading sif equation with positive slope
+shading greater than
+positive constants, sif
+including the line when shading
+shading sif equation with negative slope
+shading less than
+negative constant, glf
+entering slope, glf
+entering a point
+entering x-intercept, glf
+entering y-intercept, glf
+shading glf equation with positive slope
+shading glf equation with negative slope
+positive constants, glf
+write expression, quadratic
+entering a computed linear value
+entering a given linear value
+entering a computed quadratic value
+entering a given quadratic value
+correctly placing points
+factor-quadratic-sp
+qft-num1-sp
+qft-den-sp
+qft-num2-sp
+[skillrule: apply exponent; {expand exponents; eval radical; expand exponents, radical}]
+[skillrule: select eliminate parens; {clt nested; clt nested, parens; distribute mult right; distribute mult left; distribute subex}]
+perform-mult-sp
+perform-mult-row2-sp
+write expression, ratio
+convert unit, mixed
+setting the y-intercept
+entering the y-intercept
+entering the slope
+setting the slope
+[skillrule: select multiply/divide, nested; {mt; mt no fraction coeff}]
+combine-like-terms-whole-sp
+perform-mult-whole-sp
+[skillrule: select multiply; {mt; mt no fraction coeff}]
+perform-mult-r-sp
+[skillrule: calculate negative coefficient; [typein skill: make variable positive]]
+[skillrule: done no solutions; {done no solution; done no solution, domain exception; done no solution, range exception}]
+combine-like-terms-r-sp
+identify parent description
+identify parent equation
+identify parent curve
+choose graphical k
+edit algebraic k
+choose graphical refl-v
+edit algebraic refl-v
+choose graphical a
+edit algebraic a
+edit algebraic h
+choose graphical h
+entering slope, sif
+[skillrule: make variable positive; {add x in -x; move neg var to other side}]
+[skillrule: do multiply - whole nested; [typein skill: select multiply/divide, nested]]
+[skillrule: done infinite solutions; done infinite solutions]
+[skillrule: eliminate parens; {clt nested; clt nested, parens; distribute mult right; distribute mult left; (+/-x +/-a)/b=c, mult; (+/-x +/-a)*b=c, div; [var expr]/[const expr] = [const expr], multiply; distribute division left; distribute division right; distribute both mult left; distribute both mult right; distribute both divide left; distribute both divide right; distribute subex}]
+[skillrule: remove constant; {ax+b=c, positive; ax+b=c, negative; x+a=b, positive; x+a=b, negative; [var expr]+[const expr]=[const expr], positive; [var expr]+[const expr]=[const expr], negative; [var expr]+[const expr]=[const expr], all; combine constants to right; combine constants to left; a-x=b, positive; a/x+b=c, positive; a/x+b=c, negative}]
+[skillrule: isolate positive; x+a=b, positive]
+[skillrule: remove coefficient; {ax+b=c, divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr], divide; [var expr]*[const expr] = [const expr], divide; a/b*x=c; a/b*x=c, reciprocal; ax/b=c, reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c, mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c, multiply; [var expr]/[const expr] = [const expr], multiply}]
+[skillrule: remove negative coefficient; {ax/b=c, reciprocal; ax/b=c; ax=b; x/a=b}]
+[skillrule: ax+b=c, negative; ax+b=c, negative]
+[skillrule: remove positive coefficient; {ax/b=c, reciprocal; ax/b=c; x/a=b; ax=b}]
+[skillrule: add/subtract; [typein skill: {isolate positive; isolate negative; remove constant; consolidate vars, no coeff; consolidate vars with coeff; consolidate vars, any}]]
+[skillrule: multiply/divide; [typein skill: {remove coefficient; variable in denominator}]]
+[skillrule: consolidate vars with coeff; clt]
+combine-like-terms-sp
+[skillrule: isolate negative; x+a=b, negative]
+[skillrule: calculate eliminate parens; [typein skill: eliminate parens]]
+simplify-fractions-sp
+[skillrule: consolidate vars, no coeff; clt]
+[skillrule: select combine terms; clt]
+distribute-sp
+[skillrule: variable in denominator; {a/x=[anything]; a/x=b; a/x=b, sophisticated}]
+[skillrule: extract to consolidate vars; {factor; factorb; factorc; factord}]
+[skillrule: done?; {doneleft; doneright; done no solution; done no solution, domain exception; done no solution, range exception; done infinite solutions}]
+factor-sp
+[skillrule: eliminate parens; {[var expr]/[const expr] = [const expr], multiply; [var expr]*[const expr] = [const expr], divide}]
+[skillrule: make variable positive; {ax+b=c, divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr], divide; [var expr]*[const expr] = [const expr], divide; a/b*x=c; a/b*x=c, reciprocal; ax/b=c, reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c, mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c, multiply; [var expr]/[const expr] = [const expr], multiply}]
+[skillrule: invert-mult; {ivm}]
+define variable
+identifying units
+using simple numbers
+write expression, positive slope
+using large numbers
+entering a given
+find x, positive slope
+convert unit, standard
+using small numbers
+using difficult numbers
+find y, any form
+find y, simple
+convert unit, multiplier
+find x, simple
+find y, positive slope
+[skillrule: consolidate vars, any; {combine variables to right, sub; combine variables to right, add; combine variables to right, gen; combine variables to right; combine variables to left, add; combine variables to left, sub; combine variables to left, gen; ax+b=cx; ax+b=cx, move left; ax+b=cx+d, pos; ax+b=cx+d, neg; ax+b=cx+d, move right; ax+b=cx+d, move two; ax+b=cx+d, move two2; x+b=cx+d, pos; x+b=cx+d, neg; x+b=cx+d, move right; x+b=cx+d, move two; x+b=cx+d, move two2; ax+b=x+d, pos; ax+b=x+d, neg; ax+b=x+d, move right; ax+b=x+d, move two; ax+b=x+d, move two2; x+b=x+d, pos; x+b=x+d, neg; x+b=x+d, move right; x+b=x+d, move two; x+b=x+d, move two2}]
+labelling the axes
+changing axis bounds
+changing axis intervals
+labelling point of intersection
+write expression, negative slope
+find y, negative slope
+find x, negative slope
+write expression, initial and point
+write expression, initial and change
+write expression, two points
+negative constant, sif
+entering x-intercept, sif
+entering y-intercept, sif
+placing coordinate point
+excluding the line when shading
+shading sif equation with positive slope
+shading greater than
+positive constants, sif
+including the line when shading
+shading sif equation with negative slope
+shading less than
+negative constant, glf
+entering slope, glf
+entering a point
+entering x-intercept, glf
+entering y-intercept, glf
+shading glf equation with positive slope
+shading glf equation with negative slope
+positive constants, glf
+write expression, quadratic
+entering a computed linear value
+entering a given linear value
+entering a computed quadratic value
+entering a given quadratic value
+correctly placing points
+factor-quadratic-sp
+qft-num1-sp
+qft-den-sp
+qft-num2-sp
+[skillrule: apply exponent; {expand exponents; eval radical; expand exponents, radical}]
+[skillrule: select eliminate parens; {clt nested; clt nested, parens; distribute mult right; distribute mult left; distribute subex}]
+perform-mult-sp
+perform-mult-row2-sp
+write expression, ratio
+convert unit, mixed
+setting the y-intercept
+entering the y-intercept
+entering the slope
+setting the slope
+[skillrule: select multiply/divide, nested; {mt; mt no fraction coeff}]
+combine-like-terms-whole-sp
+perform-mult-whole-sp
+[skillrule: select multiply; {mt; mt no fraction coeff}]
+perform-mult-r-sp
+[skillrule: calculate negative coefficient; [typein skill: make variable positive]]
+[skillrule: done no solutions; {done no solution; done no solution, domain exception; done no solution, range exception}]
+combine-like-terms-r-sp
+identify parent description
+identify parent equation
+identify parent curve
+choose graphical k
+edit algebraic k
+choose graphical refl-v
+edit algebraic refl-v
+choose graphical a
+edit algebraic a
+edit algebraic h
+choose graphical h
+entering slope, sif
+[skillrule: make variable positive; {add x in -x; move neg var to other side}]
+[skillrule: do multiply - whole nested; [typein skill: select multiply/divide, nested]]
+[skillrule: done infinite solutions; done infinite solutions]
